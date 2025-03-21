@@ -1,0 +1,68 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  margin: 0 auto;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+}
+.label {
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.timer-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background: #fff;
+  margin-top: 36px;
+  margin-right: 8px;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+}
+.timer-input:hover {
+  border-color: #000;
+}
+.timer-input:active {
+  border-color: #4e75ff;
+}
+.timer-input:disabled {
+  border-color: #808080;
+  color: #808080;
+  background: #fafafa;
+}
+.timer-button {
+  display: inline;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  color: #fff;
+}
+.timer-button:hover {
+  background: #6c8cff;
+}
+.timer-button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
